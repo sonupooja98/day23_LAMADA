@@ -1,9 +1,9 @@
 package com.bridgeday23LAMDDA;
 
 public class UserValidationException extends Exception {
-	String message;
+    String message;
 
-	public UserValidationException(String message) {
-		this.message = message;
-	}
+    public UserValidationException(String message) {
+        this.message = message;
+    }
 }
